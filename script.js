@@ -1,4 +1,3 @@
-
 		function lightBox (){
 				
 				this.render = function(di){
@@ -24,19 +23,49 @@
 			
 			var Alert = new lightBox();
 			
-			
 			function openLightBox (project){
 				Alert.render(document.getElementById(project).innerHTML);
-				
-				
 			};
 
-function myFunction (){
-    document.getElementById('lov').style.backgroundImage = "url('images/facebook-(kopia).png')";
+
+function hoverSpotify (){
+    document.getElementById('link').style.background = "#2FD565";
 };
 
-function myFunction2 (){
-    document.getElementById('lov').style.backgroundImage = "none";
+function outSpotify (){
+    document.getElementById('link').style.background = "#fff";
+};
+
+function hoverInstagram (){
+    document.getElementById('link').style.background = "#CEC3AF";
+};
+
+function outInstagram(){
+    document.getElementById('link').style.background = "#fff";
+};
+
+function hoverGithub (){
+    document.getElementById('link').style.background = "#632E7D";
+};
+
+function outGithub(){
+    document.getElementById('link').style.background = "#fff";
+};
+
+function hoverLinkedin (){
+    document.getElementById('link').style.background = "#0077B5";
+};
+
+function outLinkedin (){
+    document.getElementById('link').style.background = "#fff";
+};
+
+function hoverMail (){
+    document.getElementById('link').style.background = "grey";
+};
+
+function outMail (){
+    document.getElementById('link').style.background = "#fff";
 };
 			
 				

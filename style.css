@@ -55,20 +55,6 @@ a:visited {text-decoration:none; color:#9b9b9b;}
 a:hover {text-decoration:none; color:#9b9b9b;}
 a:active {text-decoration:none; color:#9b9b9b;}
 
-/*-------------header hover background-----------*/
-
-#lov li:before {
-    background-position: center; 
-    background-repeat: no-repeat;
-    opacity: 0;
-    -webkit-transition: background-image opacity 0.5s;
-    -moz-transition: background-image opacity 0.5s;
-    -o-transition: background-image opacity 0.5s;
-}
-
-#lov li:hover {
-    opacity: 1;
-}
 
 /*----------bilder sju första-----------*/
 .down {margin-bottom: 100px;}
@@ -396,20 +382,6 @@ a:visited {text-decoration:none; color:#9b9b9b;}
 a:hover {text-decoration:none; color:#9b9b9b;}
 a:active {text-decoration:none; color:#9b9b9b;}
 
-	
-#lov li:before {
-    background-position: center; 
-    background-repeat: no-repeat;
-    opacity: 0;
-    -webkit-transition: background-image opacity 0.5s;
-    -moz-transition: background-image opacity 0.5s;
-    -o-transition: background-image opacity 0.5s;
-}
-
-#lov li:hover {
-    opacity: 1;
-}
-
 /*----------bilder sju första-----------*/
     
 .down {margin-bottom: 0;}
@@ -679,19 +651,6 @@ a:active {text-decoration:none; color:#9b9b9b;}
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .soc {
     overflow:hidden;
     margin:0; padding:0;
@@ -733,13 +692,28 @@ a:active {text-decoration:none; color:#9b9b9b;}
 }
 
 .soc-icon-last {margin:0 !important;}
-.soc-twitter {background-color: none;}
-.soc-twitter:before {content:'a';}
 .soc-instagram {background-color: none;}
 .soc-instagram:before {content:'x';}
-.soc-facebook {background-color: none;}
-.soc-facebook:before {content:'b';}
 .soc-linkedin {background-color: none;}
 .soc-linkedin:before {content:'j';}
 .soc-email1 {background-color: none;}
 .soc-email1:before {content:'<';}
+.soc-github {background-color: none;}
+.soc-github:before {content:'Q';}
+.soc-spotify {background-color: none;}
+.soc-spotify:before {content:'o';}
+
+
+#link li:before {
+    opacity: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#link li:hover {
+    opacity: 1;
+	
+}
